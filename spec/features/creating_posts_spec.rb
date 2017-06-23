@@ -1,6 +1,7 @@
 require 'rails_helper'
 
-RSpec.feature "CreatingPosts", type: :feature do
+RSpec.feature "Creating Posts", type: :feature do
+
   scenario "can create a post" do
     visit "/"
     click_link "New Post"
